@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** RESET END ***/
+* { box-sizing: border-box; }
+
+body {
+  font: .8em/1.8em 'Open Sans', Helvetica, Verdana, sans-serif;
+  color: #444;
+  background: #F9F9F9;
+  padding: 0;
+  margin: 0;
+}
+a,
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+}
+h1, h2, strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.2em;
+  border-bottom: 1px solid #A9A9A9;
+  box-shadow: 0 0 4px #AAA;
+  margin: -1em -10px 1em -10px;
+  padding: 1em 10px .5em 10px;
+}
+small {
+  font-size: 0.85em;
+}
+
+header,
+section {
+  position: relative;
+  width: 600px;
+  margin: 0 auto 1.5em auto;
+  padding: 1em 10px;
+  overflow: hidden;
+}
+
+header:after,
+section:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+header img {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid #EEE;
+  box-shadow: 0 0 5px #AAA;
+  float: left;
+  margin: 0 2% 0 0;
+}
+header p,
+header h1 {
+  width: 65%;
+  float: left;
+}
+
+#iamsocial {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#iamsocial li,
+#iamsocial a {
+  display: inline-block;
+}
+#iamsocial li {
+  margin: 0 .2em .5em 0;
+}
+#iamsocial li:nth-child(3n){
+  margin-right: 0;
+}
+#iamsocial a {
+  text-indent: -99999px;
+  width: 24px;
+  height: 24px;
+  background-image: url(/img/iamsocial.png);
+}
+#iamsocial a[href^='http://github'] { background-position: 0 0; }
+#iamsocial a[href^='http://facebook'] { background-position: -25px 0; }
+#iamsocial a[href^='http://twitter'] { background-position: -50px 0; }
+#iamsocial a[href^='https://plus'] { background-position: -75px 0; }
+#iamsocial a[href^='http://instagram'] { background-position: -100px 0; }
+#iamsocial a[href^='http://last'] { background-position: -125px 0; }
+#iamsocial a[href^='http://soundcloud'] { background-position: -150px 0; }
+#iamsocial a[href^='http://www.linkedin'] { background-position: -175px 0; }
+#iamsocial a[href^='http://pinterest'] { background-position: -200px 0; }
+
+dt, dd {
+  float: left;
+  width: 70%;
+}
+dt {
+  font-weight: bold;
+  width: 160px;
+}
+
+#companies>li,
+#projects>li {
+  margin-bottom: 2em;
+  background: url() 0 10px no-repeat;
+  background-size: 120px auto;
+  padding: 0 0 0 160px;
+}
+#companies strong,
+#companies small
+#projects strong,
+#projects small {
+  display: block;
+}
+#companies small {
+  margin: -0.5em 0 0 0;
+  opacity: .9;
+}
+#companies strong a,
+#projects strong a,
+#talks strong a {
+  padding: 0 15px 0 0;
+  background: url(/img/external-link.png) 100% 50% no-repeat;
+  text-decoration: none;
+}
+li#icomedias     { background-image: url(/img/companies/icomedias.png); }
+li#wollzelle     { background-image: url(/img/companies/wollzelle.png); }
+li#parkside      { background-image: url(/img/companies/parkside.png); }
+li#tupalo        { background-image: url(/img/companies/tupalo.png); }
+li#whatchado     { background-image: url(/img/companies/whatchado.png); }
+li#railsgirls    { background-image: url(/img/projects/railsgirls.png); }
+li#mephisto      { background-image: url(/img/projects/mephisto.png); }
+li#kingofthelist { background-image: url(/img/projects/kingofthelist.png); }
+li#getbundle     { background-image: url(/img/projects/getbundle.png); }
+
+ul.tags {
+  margin: 10px 0 0 0;
+  border-top: 1px dashed #AAA;
+  background: url(/img/tags.png) 0 5px no-repeat;
+  background-size: 14px 14px;
+  padding: 5px 0 0 20px;
+  font-size: .85em;
+  line-height: 1.5em;
+}
+ul.tags li {
+  display: inline-block;
+}
+ul.tags li:after {
+  content: ", ";
+}
+ul.tags li:last-child:after {
+  content: "";
+}
