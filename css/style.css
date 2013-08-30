@@ -198,12 +198,34 @@ ul.tags {
   font-size: .85em;
   line-height: 1.5em;
 }
-ul.tags li {
-  display: inline-block;
+ul.tags li { display: inline-block; }
+ul.tags li:after { content: ", "; }
+ul.tags li:last-child:after { content: ""; }
+
+#talks li {
+  float: left;
+  width: 50%;
+  margin: 0 0 .7em 0;
 }
-ul.tags li:after {
-  content: ", ";
+#talks strong,
+#talks small {
+  display: block;
+  float: left;
+  width: 100%;
 }
-ul.tags li:last-child:after {
-  content: "";
+#talks small {
+  line-height: 1em;
+}
+#getintouch {
+  display: block;
+  border-radius: 10px;
+  color: #F9F9F9;
+  background: #444;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2em;
+}
+#getintouch:hover {
+  opacity: .9;
 }
