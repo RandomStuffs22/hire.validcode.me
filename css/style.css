@@ -201,7 +201,9 @@ ul.tags {
 ul.tags li { display: inline-block; }
 ul.tags li:after { content: ", "; }
 ul.tags li:last-child:after { content: ""; }
-
+#talks {
+  margin-bottom: 10em;
+}
 #talks li {
   float: left;
   width: 50%;
@@ -220,7 +222,7 @@ ul.tags li:last-child:after { content: ""; }
   display: block;
   border-radius: 10px;
   color: #F9F9F9;
-  background: #444;
+  background: #5aad8b;
   text-decoration: none;
   text-align: center;
   font-size: 2em;
@@ -228,4 +230,12 @@ ul.tags li:last-child:after { content: ""; }
 }
 #getintouch:hover {
   opacity: .9;
+}
+#interested {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  background: rgba(249, 249, 249, .7);
 }
