@@ -179,6 +179,7 @@ dt {
   background: url(../img/external-link.png) 100% 50% no-repeat;
   text-decoration: none;
 }
+
 li#icomedias     { background-image: url(img/companies/icomedias.png); }
 li#wollzelle     { background-image: url(img/companies/wollzelle.png); }
 li#parkside      { background-image: url(img/companies/parkside.png); }
