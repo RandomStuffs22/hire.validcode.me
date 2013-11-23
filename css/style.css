@@ -134,7 +134,7 @@ header h1 {
   text-indent: -99999px;
   width: 24px;
   height: 24px;
-  background-image: url(/img/iamsocial.png);
+  background-image: url(img/iamsocial.png);
 }
 #iamsocial a[href^='http://github'] { background-position: 0 0; }
 #iamsocial a[href^='http://facebook'] { background-position: -25px 0; }
@@ -176,18 +176,18 @@ dt {
 #projects strong a,
 #talks strong a {
   padding: 0 15px 0 0;
-  background: url(/img/external-link.png) 100% 50% no-repeat;
+  background: url(../img/external-link.png) 100% 50% no-repeat;
   text-decoration: none;
 }
-li#icomedias     { background-image: url(/img/companies/icomedias.png); }
-li#wollzelle     { background-image: url(/img/companies/wollzelle.png); }
-li#parkside      { background-image: url(/img/companies/parkside.png); }
-li#tupalo        { background-image: url(/img/companies/tupalo.png); }
-li#whatchado     { background-image: url(/img/companies/whatchado.png); }
-li#railsgirls    { background-image: url(/img/projects/railsgirls.png); }
-li#mephisto      { background-image: url(/img/projects/mephisto.png); }
-li#kingofthelist { background-image: url(/img/projects/kingofthelist.png); }
-li#getbundle     { background-image: url(/img/projects/getbundle.png); }
+li#icomedias     { background-image: url(img/companies/icomedias.png); }
+li#wollzelle     { background-image: url(img/companies/wollzelle.png); }
+li#parkside      { background-image: url(img/companies/parkside.png); }
+li#tupalo        { background-image: url(img/companies/tupalo.png); }
+li#whatchado     { background-image: url(img/companies/whatchado.png); }
+li#railsgirls    { background-image: url(img/projects/railsgirls.png); }
+li#mephisto      { background-image: url(img/projects/mephisto.png); }
+li#kingofthelist { background-image: url(img/projects/kingofthelist.png); }
+li#getbundle     { background-image: url(img/projects/getbundle.png); }
 
 ul.tags {
   margin: 10px 0 0 0;
